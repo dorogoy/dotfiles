@@ -1,4 +1,4 @@
-colorscheme tomorrow-night
+colorscheme dracula
 
 set global tabstop 2
 set global indentwidth 2

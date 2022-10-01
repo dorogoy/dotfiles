@@ -14,3 +14,7 @@
     exclude:
       - "*/*.zwc"
       - "**/*.zwc"
+.config/kak/colors/dracula.kak:
+    type: file
+    url: https://raw.githubusercontent.com/dracula/kakoune/master/colors/dracula.kak
+    refreshPeriod: 168h
