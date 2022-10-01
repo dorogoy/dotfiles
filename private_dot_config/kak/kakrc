@@ -21,3 +21,5 @@ plug "andreyorst/powerline.kak" defer powerline_tomorrow-night %{
         powerline-start
 }
 
+plug "alexherbo2/auto-pairs.kak"
+
