@@ -1,7 +1,7 @@
 colorscheme dracula
 
-set global tabstop 2
-set global indentwidth 2
+set global tabstop 4
+set global indentwidth 4
 
 add-highlighter global/ number-lines -relative
 
@@ -22,4 +22,7 @@ plug "andreyorst/powerline.kak" defer powerline_tomorrow-night %{
 }
 
 plug "alexherbo2/auto-pairs.kak"
+
+# Use editorconfig
+hook global WinCreate ^[^*]+$ %{editorconfig-load}
 
