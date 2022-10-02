@@ -9,12 +9,8 @@
 .oh-my-zsh/custom/themes/powerlevel10k:
     type: archive
     url: https://github.com/romkatv/powerlevel10k/archive/v1.16.1.tar.gz
-    exact: true
     stripComponents: 1
     refreshPeriod: 168h
-    exclude:
-      - "*/*.zwc"
-      - "*/**/*.zwc"
 .config/kak/colors/dracula.kak:
     type: file
     url: https://raw.githubusercontent.com/dracula/kakoune/master/colors/dracula.kak
