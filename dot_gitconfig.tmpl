@@ -2,7 +2,7 @@
 	editor = flatpak run --file-forwarding re.sonny.Commit @@
 [user]
 	email = {{ .email | quote }}
-	name = Sergio Rael
+	name = {{ .name | quote }}
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
