@@ -77,10 +77,12 @@ zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(1password colored-man-pages colorize command-not-found copypath copyfile docker extract gcloud git gitignore history httpie kubectl minikube pip python rsync sudo terraform ubuntu ugit vscode zoxide)
+plugins=(1password colored-man-pages colorize command-not-found copypath copyfile docker extract gcloud git gitignore history httpie kubectl minikube pip python rsync sudo terraform ubuntu vscode zoxide)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+
+export USE_GKE_GCLOUD_AUTH_PLUGIN=True
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
