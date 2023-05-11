@@ -11,3 +11,7 @@ if test -f "/etc/profile.d/vte-2.91.sh"; then
 	sudo ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
 fi
 sudo apt install tilix kakoune micro editorconfig fonts-firacode fonts-powerline fzf
+
+mkdir -p ~/bin
+cd ~/bin && curl -L $(curl -s https://api.github.com/repos/variadico/noti/releases/latest | awk '/browser_download_url/ { print $2 }' | grep 'linux-amd64' | sed 's/"//g') | tar -xz
+
