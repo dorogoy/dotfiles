@@ -107,6 +107,7 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias open="flatpak run re.sonny.Junction"
 
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
 		source /etc/profile.d/vte.sh
