@@ -15,6 +15,7 @@ sudo apt install terminator kakoune micro editorconfig fonts-firacode fonts-powe
 mkdir -p ~/bin
 cd ~/bin && curl -L $(curl -s https://api.github.com/repos/variadico/noti/releases/latest | awk '/browser_download_url/ { print $2 }' | grep 'linux-amd64' | sed 's/"//g') | tar -xz
 
-# Install nixshell
+# Install nixshell and devbox
 sh <(curl -L https://nixos.org/nix/install) --daemon
+curl -fsSL https://get.jetpack.io/devbox | bash
 
