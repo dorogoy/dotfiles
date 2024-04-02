@@ -17,5 +17,5 @@ cd ~/bin && curl -L $(curl -s https://api.github.com/repos/variadico/noti/releas
 
 # Install nixshell and devbox
 sh <(curl -L https://nixos.org/nix/install) --daemon
-curl -fsSL https://get.jetpack.io/devbox | bash
+#curl -fsSL https://get.jetpack.io/devbox | bash
 
